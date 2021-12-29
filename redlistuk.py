@@ -40,7 +40,7 @@ table.plot(ax=base, color='lightcoral', edgecolor='black', linewidth=0.05, legen
 UK.plot(ax=base, color='darkslateblue', edgecolor='black', linewidth=0.05, legend=False)
 
 # Add title and customize it
-title = plt.text(x=0, y=1.5*1e7, s="Red countries on UK's travel list from 4th October",
+title = plt.text(x=0, y=1.5*1e7, s="Red countries on UK's travel list from 4th October 2021",
                  fontsize=22, color='white', horizontalalignment='center', verticalalignment='top')
 title.set_path_effects([PathEffects.withStroke(linewidth=2, foreground='black')])
 
